@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bookstore">
+      <div class="bigcontainer">
+        <div class="banner">
+          <div class="container">
+            <h1>Book Store</h1>
+            <h5>Books for reading lovers</h5>
+            <input type="text" placeholder="Search Books..." id="bannerField" />
+          </div>
+        </div>
+        <div class="books">
+          <div class="cont">
+            <h3>Books to Read:</h3>
+            <ul>
+              <li>
+                <span class="cont">Name of The Wind</span>
+                <button class="btnCont">delete</button>
+              </li>
+              <li>
+                <span class="cont">The Wise Man's Fear</span>
+                <button class="btnCont">delete</button>
+              </li>
+              <li>
+                <span class="cont">Kafka's on the Shore</span>
+                <button class="btnCont">delete</button>
+              </li>
+              <li>
+                <span class="cont">The Master and the Mangantta</span>
+                <button class="btnCont">delete</button>
+              </li>
+            </ul>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="check" style="cursor: pointer" />
+            <span>Hide all books</span>
+          </div>
+          <div class="add">
+            <input type="text" placeholder="Add a book..." id="add" />
+            <button id="btnId">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
